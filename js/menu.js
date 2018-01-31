@@ -5,11 +5,11 @@ var menuState = {
 
 	click = game.add.audio('click', volume);
 
-    nameLabelDesert = game.add.bitmapText(game.world.centerX, game.world.centerY - TILE_SIZE*5.1, 'zigFont', "Desert", 100);
+    nameLabelDesert = game.add.bitmapText(game.world.centerX, game.world.centerY - TILE_SIZE*5.1, 'zigFont', "Desert", 75);
     nameLabelDesert.anchor.setTo(0.5,0.5);
     nameLabelDesert.tint = 0xddaa00;   
 
-    nameLabelChase = game.add.bitmapText(game.world.centerX, game.world.centerY - TILE_SIZE*3.9, 'zigFont', "Chase", 100);
+    nameLabelChase = game.add.bitmapText(game.world.centerX, game.world.centerY - TILE_SIZE*3.9, 'zigFont', "Chase", 75);
     nameLabelChase.anchor.setTo(0.5,0.5);
     nameLabelChase.tint = 0xddaa00;  
 
