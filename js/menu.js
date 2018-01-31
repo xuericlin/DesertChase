@@ -16,17 +16,17 @@ var menuState = {
 	console.log("Menued...");
 
 	// Start button
-	gameStart = game.add.button(game.world.centerX, game.world.centerY - 1.75*TILE_SIZE, 'start', startClick, this);
+	gameStart = game.add.button(game.world.centerX, game.world.centerY - 1.6*TILE_SIZE, 'start', startClick, this);
 	gameStart.anchor.setTo(0.5,0.5);
 	gameStart.scale.setTo(0.45,0.45);
 
 	// Instruction button
-	instruction = game.add.button(game.world.centerX, 0.85*TILE_SIZE + game.world.centerY, 'instruction', instructionClick, this)
+	instruction = game.add.button(game.world.centerX, 1.00*TILE_SIZE + game.world.centerY, 'instruction', instructionClick, this)
 	instruction.anchor.setTo(0.5,0.5);
 	instruction.scale.setTo(0.45,0.45);
 
 	// Credit button
-	credit = game.add.button(game.world.centerX, game.world.centerY + 3.6*TILE_SIZE, 'credit', creditClick, this)
+	credit = game.add.button(game.world.centerX, game.world.centerY + 3.75*TILE_SIZE, 'credit', creditClick, this)
 	credit.anchor.setTo(0.5,0.5);
 	credit.scale.setTo(0.45,0.45);
 
